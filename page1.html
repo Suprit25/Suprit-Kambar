@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body{
+            border: 15px solid black;
+            background-color: yellow;
+ margin: auto;
+ padding: auto;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+        h1{
+            text-align: center;
+            color: pink;
+            text-decoration: underline solid black;
+        }
+        p li{display: flex;
+            width: 50%;
+            height: 50%;
+            border: 2px solid black;
+            padding: 10px;
+             text-align: center;
+             justify-content: center;
+             align-items: center;
+             margin: auto;
+        }
+        li{
+            padding: 10px;
+        }
+        /* ul li{
+            border: 2px solid black;
+            width: 50%;
+            display: inline;
+            /* list-style-type: square; */
+            /* padding: 10px; */
+            /* text-align: left; */
+        /* }  */
+    </style>
+</head>
+<body>
+    <h1>1.Smart Traffic Management System using Arduino Uno and Sensors</h1>
+   <ul> <li> <p>The Smart Traffic Management System is an innovative project designed to efficiently manage vehicle traffic at
+    intersections using Arduino Uno and IR sensors. Traditional traffic signals operate on fixed timing, which often leads
+    to unnecessary waiting and congestion, especially when one lane is empty and others are overloaded. This project aims to
+    solve that problem by using sensors to detect the presence and density of vehicles and automatically control the traffic
+    lights accordingly.<br></li>
+    
+    <li>In this system, Infrared (IR) sensors are placed on each road to monitor the number of vehicles waiting at a signal. The
+    Arduino Uno processes this sensor data and decides which lane should get the green signal and for how long. The lane
+    with higher traffic density gets longer green time, while lanes with less or no traffic are skipped or given shorter
+    durations. This improves traffic flow and reduces idle waiting time for vehicles.<br></li>
+    
+    <li>The setup includes LEDs to represent the red, yellow, and green traffic signals for each lane. When the IR sensor
+    detects vehicles, the Arduino triggers the green light for that lane, and switches to other lanes based on the traffic
+    priority logic. Additionally, a buzzer can be used to alert for emergency situations, such as ambulance or firetruck
+    arrival, giving them signal priority.<br></li>
+    
+    <li>This project is a great example of combining electronics, embedded programming, and real-world problem-solving. It is
+    low-cost, scalable, and ideal for smart city applications. It also demonstrates how microcontrollers and sensors can be
+    used to make everyday systems smarter and more efficient.</li></p></ul>
+    
+    <h1>2. Smart Traffic Management System using Raspberry Pi and Camera</h1>
+    <p>
+        <ul><li> Smart Traffic Management System using Raspberry Pi and Camera is a modern approach to managing road traffic
+        efficiently using real-time video processing and machine learning techniques. Unlike traditional systems that use timers
+        or IR sensors, this system uses a camera connected to a Raspberry Pi to analyze live traffic footage and control signal
+        lights based on vehicle density.<br></li>
+        
+        <li>In this system, the camera captures live video streams from each road at a traffic intersection. The Raspberry Pi
+        processes these images using OpenCV, a computer vision library, to count the number of vehicles in each lane. Based on
+        the vehicle count, the system dynamically adjusts the traffic signal timing — giving longer green light durations to
+        roads with higher traffic and shorter durations to less crowded ones. This leads to more efficient traffic flow and
+        reduced congestion, especially during peak hours.</li><br>
+        
+       <li> The system can be further enhanced by integrating features like emergency vehicle detection using siren sound
+        recognition or license plate detection, and automatic number plate recognition (ANPR) for traffic rule enforcement. It
+        can also store traffic data for analysis and optimization over time.</li><br>
+        
+    <li>This project demonstrates the powerful combination of Raspberry Pi, Python, OpenCV, and automation to create an
+        intelligent traffic control system. It not only reduces waiting times but also contributes to building smarter and safer
+        cities.</li></ul>
+    </p>
+    
+</body>
+</html>

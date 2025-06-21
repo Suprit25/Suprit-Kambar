@@ -1,0 +1,57 @@
+
+
+
+#header{
+    background-image: url(image/img4.jpg);
+}
+.header-text{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.header-text h1{
+    font-size: 30px;
+}
+nav .fa-solid {
+    display: block;
+    font-size: 30px;
+}
+nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: 2;
+    transition: right 0.6s;
+}
+nav ul li{
+    display: block;
+}
+nav ul .fa-solid{
+position: absolute;
+    top: 30px;
+    left: 25px;
+    cursor: pointer;
+}
+.Sub-title{
+    font-size:30px;
+}
+.about-col-1,.about-col-1{
+  flex-basis: 100%;   
+}
+.about-col-1{
+    margin-bottom: 10px;
+}
+.about-col-2{
+    font-size: 12px;
+}
+.tab-links{
+    margin-right: 18px;
+    font-size: 16px;
+}
+.contact-left,.contact-right{
+    flex-basis: 100%;
+}
+

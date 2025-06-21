@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media=" screen and (max-width:700px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/66ffa290e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="c:\Users\supri\Downloads\PHOT.jpeg" class="logo" width="80px" height="UTF-8">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Portpolio">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graduate</p>
+                <h1>Hi, I am <span>Suprit </span> From<br> Belagavi</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="c:\Users\supri\OneDrive\Desktop\college1\Graduation day\link photo.jpg" width="50%"
+                        height="70%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>Hi, I'm Suprit Kambar, a creative and motivated Frontend Developer with a interest in building
+                        responsive and
+                        user-friendly websites. I have completed my Electronics and Communication Engineering from VTU
+                        and gained skills in
+                        HTML, CSS, JavaScript and React.
+
+                        I enjoy bringing designs to life and making smooth, interactive web experiences. I’m always
+                        learning and exploring new
+                        tools in frontend development to improve my skills.
+
+                        I'm looking forward to joining a team where I can grow and contributeas a frontend developer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents Active-tab" id="Skills">
+                        <ul>
+                            <li><span>Frontend Developer</span></li>
+                            <li><span>Basic VLSI & Embedded system</span></li>
+                            <li><span>Basic C </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship">
+                        <ul>
+                            <li><span>29<sup>th</sup>Oct 2024-7<sup>th</sup> Feb-2025</span><br>Adavanced VLSI in VTU,
+                                Belagavi</li>
+                            <li><span>31<sup>st</sup>Oct 2023 -22<sup>nd</sup>nov 2023 </span><br>Internet of Things in
+                                Ascendent Technolgy
+                                ,Belagavi</li>
+                            <li><span>11<sup>th</sup> Oct 2022-30<sup>th</sup> Nov 2022 </span><br>Embedded System in
+                                SGBIT College,Belagavi</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Visvesvaraya Technological University,Belagavi</li>
+                            <li><span>2019-2021</span><br>KLE CS Angadi PU College of Science,Gokak</li>
+                            <li><span>2016-2019</span><br>Basel Mission Boys High School,Dharwad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-regular fa-code"></i> -->
+                    <h2>1.Smart Traffic Management System using Arduino</h2>
+                    <p>This project uses Arduino Uno and IR sensors to create a smart traffic control system. It
+                        automatically detects vehicle
+                        presence and adjusts traffic light timing based on traffic density. This helps reduce waiting
+                        time and improves traffic
+                        flow, especially at busy intersections.</p>
+                    <a href="page1.html">Learn More</a>
+
+                </div>
+                <div>
+                    <!-- <i class="fa-sharp fa-solid fa-crop"></i> -->
+                    <h2>2. Smart Traffic Management System using Raspberry Pi and Camera</h2>
+                    <p>This project is a Smart Traffic Management System built using a Raspberry Pi and Camera. Instead
+                        of using timers or
+                        sensors, the camera captures live video of the traffic, and the Raspberry Pi uses Python and
+                        OpenCV to count the number
+                        of vehicles on each road. Based on the traffic, the system automatically changes the signal
+                        timing — giving more time to
+                        busy roads and less time to empty ones. This helps reduce waiting time and traffic jams. It’s a
+                        low-cost and smart
+                        solution that can be used in real life to make cities safer and more efficient.</p>
+                    <a href="page1.html">Learn More</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-brands fa-app-store"></i> -->
+                    <h2>Online Book Service</h2>
+                    <p>This is a simple and clean Online Book Service website designed using HTML and CSS. The homepage
+                        displays various book
+                        categories and featured titles in a neat, grid-based layout. It includes a stylish header, book
+                        cards with prices, and a
+                        clear call-to-action for users to explore more.
+
+                        The site is fully responsive, meaning it works well on mobile, tablet, and desktop screens. This
+                        project helped me
+                        strengthen my frontend skills, especially in creating layouts, using CSS for styling, and
+                        building mobile-friendly
+                        designs.
+                    </p>
+                    <a href="https://courageous-kheer-0defd1.netlify.app/">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Work-------- -->
+    <div id="Portpolio">
+        <div class="container">
+            <h1 class="sub-title">Internships</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="c:\Users\supri\OneDrive\Pictures\Screenshots\Screenshot 2025-06-15 204528.png">
+                    <div class="layer">
+                        <h1>1.Advanced VLSI-VTU </h1>
+
+                        <a href="page2.html"><i class="fa-sharp fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="c:\Users\supri\OneDrive\Pictures\Screenshots\Screenshot 2025-06-15 204951.png">
+                    <div class="layer">
+                        <h1>2.Internet of Things-Ascedent Technolgy </h1>
+                       
+                        <a href="page2.html"><i class="fa-sharp fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="c:\Users\supri\OneDrive\Pictures\Screenshots\Screenshot 2025-06-16 214723.png">
+                    <div class="layer">
+                        <h1>3.Embedded System-SGBIT College </h1>
+                      
+                        <a href=""><i class="fa-sharp fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>supritkambar72@gmail.com</p>
+                    <p><i class="fa-sharp-duotone fa-solid fa-phone"></i>9481956870</p>
+                    <div class="social-icons">
+                        <!-- <a href=""><i class="fa-solid fa-file"></i></a> -->
+                        <a href="https://www.facebook.com/profile.php?id=100071444903435&mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/suprit-kambar-a8682a2a6"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="image/my resume final.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="enter your email" required>
+                        <input type="tel" name="phone" placeholder="123-456-7890">
+                        <textarea name="Message" id="" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Suprit.<i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
